@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>About Me</title>
-  <link rel="stylesheet" href="styles.css">
+<title>About Me</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
+    <img class="avatar" src="photo.jpg" alt="Profile picture of Khadija">
     <h1>Hi, I'm Khadija</h1>
-    <p>Frontend Developer & IT Instructor</p>
+    <p id="subtitle"></p>
+    <p>Frontend Developer &amp; IT Instructor</p>
   </header>
 
   <nav>
@@ -17,24 +19,24 @@
   </nav>
 
   <main>
-    <section class="card" id="about">
-      <h2>About Me</h2>
-      <p>I'm learning web development because I want to build things for the internet.</p>
-    </section>
+    <div class="card-row">
+      <section class="card" id="about">
+        <h2>About Me</h2>
+        <p>I'm learning web development because I want to build things for the internet.</p>
+      </section>
 
-    <section class="card" id="hobbies">
-      <h2>Things I Enjoy</h2>
-      <ul class="hobbies-list">
-        <li>Reading</li>
-        <li>Music</li>
-        <li>Coding (soon!)</li>
-      </ul>
-    </section>
-
-    <section class="card">
-      <h2>A Picture of Me</h2>
-      <img src="https://via.placeholder.com/200" alt="A placeholder profile picture">
-    </section>
+      <section class="card" id="hobbies">
+        <h2>Things I Enjoy</h2>
+        <ul class="hobbies-list">
+          <li>Reading</li>
+          <li>Music</li>
+          <li>singing</li>
+          <li>eating</li>
+          <li>sleeping</li>
+          <li>Coding (soon!)</li>
+        </ul>
+      </section>
+    </div>
 
     <section class="card" id="contact">
       <h2>Get In Touch</h2>
@@ -56,5 +58,7 @@
   <footer>
     <p>&copy; 2026 Khadija</p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
